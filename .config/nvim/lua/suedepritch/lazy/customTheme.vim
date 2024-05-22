@@ -16,18 +16,18 @@ let g:netrw_banner=0
 let g:netrw_liststyle=3
 
 " Base groups
-hi! Constant guifg=#00D5FF  " Color for constants
-hi! Identifier guifg=#FFFFFF  " Color for identifiers (e.g., variable names)
-hi! Comment guifg=#CC9966   " Color for comments
-hi! Statement guifg=#668ACC  " Color for statements (e.g., if, return)
-hi! Preproc guifg=#66CC77  " Color for preprocessor directives
-hi! Special guifg=#66CC77  " Color for special characters
-hi! Type guifg=#6BB9F0" Color for types (e.g., int, char)
-hi! Underlined guifg=#66CC77  " Color for underlined text
-hi! Ignore guifg=#B6BECC   " Color for ignored text
-hi! Error guibg=#FFFFFF guifg=#0F141F  " Color for errors
-hi! Todo guifg=#0F141F guibg=#668ACC  " Color for TODO comments
-hi! Function guifg=#0091FF"Function
+hi! Constant guifg=#FF3370 ctermfg=197
+hi! Identifier guifg=#87ffff ctermfg=123
+hi! Comment guifg=#CC9966 ctermfg=215
+hi! Statement guifg=#87afff ctermfg=99
+hi! Preproc guifg=#66CC77 ctermfg=85
+hi! Type guifg=#6666CC ctermfg=105
+hi! Special guifg=#3BD5F7 ctermfg=85
+hi! Underlined guifg=#66CC77 ctermfg=85
+hi! Ignore guifg=#B6BECC ctermfg=250
+hi! Error guibg=#CC6666 guifg=#0F141F ctermbg=210
+hi! Todo guifg=#0F141F guibg=#668ACC ctermbg=111
+hi! Function guifg=#4682B4  " SteelBlue - Color for function
 
 hi! Title guifg=#FFFFFF  " Color for titles
 hi! Cursor guibg=#1A2438 guifg=#0F141F  " Color for cursor
@@ -55,7 +55,7 @@ hi! DiffAdd guifg=#0F141F guibg=#66CC77  " Diff add color
 hi! DiffChange guifg=#0F141F guibg=#668ACC  " Diff change color
 hi! DiffDelete guifg=#0F141F guibg=#FFFFFF  " Diff delete color
 hi! DiffText guifg=#0F141F guibg=#FFFFFF  " Diff text color
-hi! MatchParen guibg=#24314D " Matching parenthesis color
+hi! MatchParen guibg=#ff0000" Matching parenthesis color
 
 hi! NonText guifg=#B6BECC   " Non-text color
 hi! SpecialKey guifg=#FFFFFF  " Special key color
