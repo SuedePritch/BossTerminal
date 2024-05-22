@@ -6,6 +6,12 @@
 
 # Include Badass Neovim/Terminal configs
 !/.zshrc
-!/.config/nvim
 !/.p10k.zsh
 !/.tmux.conf
+# Allow .config directory
+!/.config
+
+# Ignore everything inside .config except nvim
+/.config/*
+!/.config/nvim/
+!/.config/nvim/**
